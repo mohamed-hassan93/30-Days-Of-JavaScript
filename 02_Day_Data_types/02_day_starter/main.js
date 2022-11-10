@@ -116,14 +116,40 @@ console.log(var1.concat(var2))
 
 console.log(varTrim.trim().repeat(2));
 
-// Exercise: Level 2
-// Using console.log() print out the following statement:
 
 // The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.
+
+console.log('"There is no exercise better for the heart than reaching down and lifting people up."by John Holmes teaches us to help one another.')
+
 // Using console.log() print out the following quote by Mother Teresa:
 
 // "Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead."
+
+console.log("'Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.'");
+
 // Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+
+let str = typeOf('10');
+
+let num = typeOf(10)
+
+if (str === num){
+    console.log(true);
+}else{
+    console.log(false)
+}
+
+
+
+let str = '10';
+
+let num = 10
+
+if (typeof Number(str) === typeof num){
+    console.log(true);
+}else{
+    console.log(false)
+}
 
 // Check if parseFloat('9.8') is equal to 10 if not make it exactly equal with 10.
 
